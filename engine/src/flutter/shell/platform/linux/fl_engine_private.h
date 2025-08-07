@@ -265,8 +265,8 @@ void fl_engine_send_window_metrics_event(FlEngine* engine,
  * @view_id: the view that the event occured on.
  * @phase: mouse phase.
  * @timestamp: time when event occurred in microseconds.
- * @x: x location of mouse cursor.
- * @y: y location of mouse cursor.
+ * @x: x location of touch point.
+ * @y: y location of touch point.
  * @device_kind: kind of pointing device.
  * @scroll_delta_x: x offset of scroll.
  * @scroll_delta_y: y offset of scroll.
@@ -290,8 +290,8 @@ void fl_engine_send_mouse_pointer_event(FlEngine* engine,
  * @engine: an #FlEngine.
  * @view_id: the view that the event occured on.
  * @timestamp: time when event occurred in microseconds.
- * @x: x location of mouse cursor.
- * @y: y location of mouse cursor.
+ * @x: x location of touch point.
+ * @y: y location of touch point.
  * @device: device id.
  *
  * Sends a touch up event to the engine.
@@ -308,8 +308,8 @@ void fl_engine_send_touch_up_event(FlEngine* engine,
  * @engine: an #FlEngine.
  * @view_id: the view that the event occured on.
  * @timestamp: time when event occurred in microseconds.
- * @x: x location of mouse cursor.
- * @y: y location of mouse cursor.
+ * @x: x location of touch point.
+ * @y: y location of touch point.
  * @device: device id.
  *
  * Sends a touch down event to the engine.
@@ -325,8 +325,8 @@ void fl_engine_send_touch_down_event(FlEngine* engine,
  * @engine: an #FlEngine.
  * @view_id: the view that the event occured on.
  * @timestamp: time when event occurred in microseconds.
- * @x: x location of mouse cursor.
- * @y: y location of mouse cursor.
+ * @x: x location of touch point.
+ * @y: y location of touch point.
  * @device: device id.
  *
  * Sends a touch move event to the engine.
